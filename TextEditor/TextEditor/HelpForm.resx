@@ -1,0 +1,148 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="textLabel.Text" xml:space="preserve">
+    <value>Program is designed for editing existing files and creating new files of following extensions:
+.txt, .ini, .cfg, .rtf, .cs, .csv.
+
+The interface of the program is tab-based, making it possible to open several files in the same window.
+For interaction with the file and the program, user can use the menu at the top of the window, as well
+as the toolbar on its left for quick interaction.
+
+Program features two editing modes:
+Text editing mode - automatically enabled for .txt, .ini, .cfg, .rtf and .csv files. This mode features text
+formatting capabilities, such as font and color control.
+Code editing mode - automatically enabled for .cs files. The mode features specialized text box, as well as
+customizable C# syntax highlighting, code autoformatting, code compilation and code execution.</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAAAAAAAEAIAAgAwAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgAAAAAeRn3ugAAAAFv
+        ck5UAc+id5oAAALaSURBVHja7dyxaxNRGADw79IgdRIXJ+t/oCAEFQfBWazYSXQpiJNLQRBEcSmKIAgi
+        KLgVRHDqoDh1EkEQRRF0U4tFFIRaFZvUNBd3k5wnRJLm/b7x3cu77/1y7w33HS9rR9pRSXz+AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoxvVUr0+3hh8pqcn/suwWalvhZ/u
+        HTzAk30DXAJjQ/CsdsmhsZL4HvBu1/TDesoA2dLcodqlD+kCRCXizYXdM2+TBYiIiOXrtXNfUgaIWLmy
+        Zy5pgIjF6anFpAEi5vfPpw0Qn6Yupg0QMXtiNW2AuHvka9oAsTC5nDZAPD76I22AeHS8mTZAPJhJHCBu
+        3kocIM48SxygfnI1bYB4NZs4QFx7kTjAr7OjCNDqbMrzHn0X7pQetjqAqUwe6DKZyCqt70Xv6Ld3Nm07
+        3+MH7VY7K5lMubrA81o/AW6fGqIHaxBLoD5E81cbBAAAAAAAAAAAAAAAAAAAABKM6hDl0l4vej1V7fyv
+        2sV1wEp1gwF8PlxU0bi3s6Pp/WReNN7E/U0bC6D5slVwtQtO43UxaKMEwDDtAdn4P2aaFWc/VqZSPsqb
+        YL6eOkCeOECpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2BCZ9uN4o2GqDhfHWvPPrweyRlIAxzZ3
+        AKzlKQEspb4HBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf49WX++51qM9
+        /9nfuX0rc/Z6ucPVd1zuZ2IHe7RvvdrsK8D4lhKdsrYlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMJrxG9HBbMWgpMR9AAAAAElFTkSuQmCC
+</value>
+  </data>
+</root>

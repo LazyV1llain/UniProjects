@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icon-csv.png" />
+    <None Remove="icons8-delete-30.png" />
+    <None Remove="icons8-graph-30.png" />
+    <None Remove="icons8-help-30.png" />
+    <None Remove="icons8-import-30.png" />
+    <None Remove="icons8-minimize-window-30.png" />
+    <None Remove="icons8-restore-window-24.png" />
+    <None Remove="logo-text-csv.png" />
+    <None Remove="logo.png" />
+    <None Remove="splash-csv.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ColorPickerWPF" Version="1.0.9" />
+    <PackageReference Include="CSVLibraryAK" Version="1.1.4" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.0.2" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon-csv.png" />
+    <Resource Include="icons8-delete-30.png" />
+    <Resource Include="icons8-graph-30.png" />
+    <Resource Include="icons8-help-30.png" />
+    <Resource Include="icons8-import-30.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="icons8-minimize-window-30.png" />
+    <Resource Include="icons8-restore-window-24.png" />
+    <Resource Include="logo-text-csv.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="splash-csv.png" />
+  </ItemGroup>
+
+</Project>

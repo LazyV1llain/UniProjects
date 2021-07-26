@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="anager.png" />
+    <None Remove="arehouse.png" />
+    <None Remove="icon-wm.png" />
+    <None Remove="icons8-circle-30.png" />
+    <None Remove="icons8-delete-30.png" />
+    <None Remove="icons8-expand-arrow-30.png" />
+    <None Remove="icons8-filled-circle-30.png" />
+    <None Remove="icons8-folder-30.png" />
+    <None Remove="icons8-logout-rounded-down-30.png" />
+    <None Remove="icons8-ok-30.png" />
+    <None Remove="icons8-signin-30.png" />
+    <None Remove="M.png" />
+    <None Remove="W.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="anager.png" />
+    <Resource Include="arehouse.png" />
+    <Resource Include="icon-wm.png" />
+    <Resource Include="icons8-circle-30.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="CsvHelper" Version="26.1.0" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-delete-30.png" />
+    <Resource Include="icons8-expand-arrow-30.png" />
+    <Resource Include="icons8-filled-circle-30.png" />
+    <Resource Include="icons8-folder-30.png" />
+    <Resource Include="icons8-logout-rounded-down-30.png" />
+    <Resource Include="icons8-ok-30.png" />
+    <Resource Include="icons8-signin-30.png" />
+    <Resource Include="M.png" />
+    <Resource Include="W.png" />
+  </ItemGroup>
+
+</Project>
